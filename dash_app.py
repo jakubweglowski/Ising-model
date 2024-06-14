@@ -504,5 +504,5 @@ def solve_model(a,b,alpha):
     t, x = PSB.Runge_Kutta()
     return t,x
 
-app.run_server(debug=True)
+app.run_server(debug=True, host='0.0.0.0')
 
